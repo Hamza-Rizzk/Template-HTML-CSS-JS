@@ -1,0 +1,351 @@
+
+* , *:after , *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+} 
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Start Header Section */
+.header {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(196, 89, 196);
+}
+
+.header .navBar {
+    width: 20%;
+    padding: 20px 50px;
+    cursor: pointer;
+}
+
+.header .navBar i {
+    display: inline-block;
+    color: #FFF;
+    font-size: 25px;
+    margin-right: 5px
+}
+
+.header .navBar h2 {
+    color: #FFF;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.header .heading {
+    width: 48%;
+    float: left;
+    padding-top: 70px;
+}
+
+.header .heading h2 {
+    width: 90%;
+    font-size: 35px;
+    line-height: 1.7;
+    color: #FFF;
+}
+
+.header .heading .shd:hover {
+    color: #00BC8A;
+    cursor: pointer;
+}
+
+.header .hr-line {
+    width: 1px;
+    height: 200px;
+    background-color: #CCC;
+    float: left;
+    margin-top: 60px;
+
+}
+
+.header .side-header {
+    width: 48%;
+    float: right;
+    padding-top: 70px;
+}
+
+.header .side-header p {
+    width: 95%;
+    font-size: 25px;
+    line-height: 1.7;
+    color: #FFF;
+}
+
+.header .side-header .btn {
+    margin-top: 25px;
+    padding: 15px 40px;
+    background: none;
+    border: 0;
+    outline: none;
+    border-radius:  50px;
+    background-color: #00BC8A;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+/* End Header Section */
+
+/* Start Details Section */
+.details {
+    width: 100%;
+    height: 500px;
+}
+
+.details .more-details {
+    width: 48%;
+    float: left;
+    margin-top: 50px
+}
+
+.details .more-details h2 {
+    font-size: 35px;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.details .more-details p {
+    padding-top: 30px;
+    line-height: 2;
+    font-size: 20px;
+    color: #777;
+}
+
+.details .more-details .btn {
+     margin-top: 50px;
+     padding: 15px 40px;
+     background: none;
+     border: 0;
+     outline: none;
+     border-radius: 50px;
+     border: 1px solid #555;
+     font-size: 13px;
+     font-weight: 500;
+     color: #333;
+     text-transform: uppercase;
+     cursor: pointer;
+}
+
+.details .hr-line {
+    width: 1px;
+    height: 350px;
+    background-color: #CCC;
+    float: left;
+    margin-top: 60px;
+}
+
+.details .other-details {
+    width: 44%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 4%;
+    display: none;
+}
+
+.details .other-details i {
+    line-height: 4;
+    font-size: 20px;
+    color: #00BC8A;
+}
+
+.details .other-details i span {
+    margin-left: 15px;
+    color: #333;
+}
+
+/* End Details Section */
+
+/* Start More Info  */
+.info {
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 25px;
+    background-color: #EEE;
+    overflow: hidden;
+}
+
+.info .image {
+    width: 50%;
+}
+
+.info .image img {
+    width: 90%;
+    height: 400px;
+    float: left;
+}
+
+.info .more-info {
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+
+.info .more-info h2 {
+    font-size: 35px;
+    color: #666;
+}
+
+.info .more-info p {
+    font-size: 18px;
+    color: #333;
+    line-height: 2;
+    margin-top: 25px;   
+}
+
+.info .more-info .btn3 {
+    margin-top: 40px;
+    padding: 15px 50px;
+    background: none;
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid #555;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.info .more-info .btn3:hover {
+    background-color: #777;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.info .more-info .dd {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+/* End More Info  */
+
+/* Start Contact Us */
+.contact-us {
+    width: 100%;
+    height: 600px;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.contact-us .contact {
+    width: 45%;
+    float: left;
+}
+
+.contact-us .contact h2 {
+    font-size: 45px;
+    color: #555;
+}
+
+.contact-us .contact p {
+    margin-top: 35px;
+    font-size: 18px;
+    color: #666;
+    line-height: 2;
+}
+
+.contact-us .contact .input1 {
+    margin-top: 35px;
+}
+
+.contact-us .contact .input1 input {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 49%;
+    padding: 10px;
+    outline: 0;
+}
+
+.contact-us .contact .input1 input::placeholder,
+.contact-us .contact textarea::placeholder {
+    color: #999;
+}
+
+/* .contact-us .contact .input1 input[type="email"] {
+    margin-left: 15px;
+} */
+
+.contact-us .contact textarea {
+    width: 99%;
+    padding: 10px;
+     outline: 0;
+}
+
+.contact-us .contact .btn4 {
+    margin-top: 40px;
+    padding: 15px 50px;
+    background: none;
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid #999;
+    font-size: 13px;
+    font-weight: 500;
+    color: #666;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contact-us .hr-line {
+    width: 1px;
+    height: 500px;
+    background-color: #CCC;
+    float: left;
+    margin-left: 36px;
+}
+
+.social {
+    width: 48%;
+    float: right;
+}
+
+.social i:first-child {
+    margin-top: 15px;
+}
+
+.social i {
+    display: block;
+    font-size: 18px;
+    color: #00BC8A;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.social i span {
+    margin-left: 15px;
+    color: #999;
+    font-weight: normal;
+}
+
+/* End Contact Us */
+
+/* Start Footer */
+.footer {
+    margin-top: 50px;
+    background-color: #EEE;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    color: #666;
+}
+/* End Footer */
